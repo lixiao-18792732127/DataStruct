@@ -53,10 +53,10 @@ int main()
 	int arr[] = { 1, 3, 5, 7, 0, 2, 9, 4, 6, 2 };
 	//int arr[] = { 4, 38, 65, 97, 76, 13, 27, 49 };
 	int n = sizeof(arr) / sizeof(arr[0]);
-	cout << "进行计数排序前：";
+	cout << "进行计数排序法前：";
 	printArray(arr, n);
 	CountSort(arr, n);
-	cout << "进行计数排序后：";
+	cout << "进行计数排序法后：";
 	printArray(arr, n);
 	system("pause");
 	return 0;
