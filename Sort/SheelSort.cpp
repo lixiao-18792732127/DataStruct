@@ -37,6 +37,8 @@ int main()
 	int arr[] = { 49, 38, 65, 97, 76, 13, 27, 49 };
 	int n = sizeof(arr) / sizeof(arr[0]);
 	SheelSort(arr, n);
+	cout << "进行希尔排序前：";
+	printArray(arr, n);
 	cout << "进行希尔排序后：";
 	printArray(arr, n);
 	system("pause");
