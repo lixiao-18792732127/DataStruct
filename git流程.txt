@@ -1,0 +1,19 @@
+创建一个仓库
+git add test.txt  
+git commit -m"第一个chengxu"
+git remote add origin https://github.com/lixiao-18792732127/Linux.git
+git push -u origin master                                                     
+
+git add test.c
+git commit -m "//备注信息"
+git push origin master
+
+git status
+git rm 
+git commit -m "remove test.txt"
+git push origin master --force
+
+
+https://github.com/FuXin-1024
+https://github.com/haohaosong
+
