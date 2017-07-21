@@ -7,7 +7,7 @@ struct ListNode
 };
 
 
-//删除非尾结点
+//删除链表的非尾节点
 void DeleteList(ListNode* node)
 {
 	if (node == NULL)
