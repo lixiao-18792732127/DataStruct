@@ -1,3 +1,4 @@
+//对一个数组进行排序，时间复杂度为O(N)
 #include<iostream>
 #include<cstring>
 using namespace std;
