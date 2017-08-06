@@ -1,4 +1,4 @@
-
+//对n个数字进行右移k位
 #include<iostream>
 using namespace std;
 #include<math.h>
